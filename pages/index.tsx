@@ -6,11 +6,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Brand Impact</title>
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="logo.svg" />
       </Head>
 
       <div className={styles.header}>
-        <img className={styles.logo} src="/logo.svg" alt="logo" />
+        <img className={styles.logo} src="logo.svg" alt="logo" />
         <nav>
           <ul className={styles.nav__links}>
             <li><a href="#">Home</a></li>
@@ -51,6 +51,17 @@ export default function Home() {
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
           </ul>
+          </div>
+        </section>
+        <section className="">
+          <p className={styles.title}>
+            Services
+          </p>
+          <p>
+
+          </p>
+          <div>
+
           </div>
         </section>
       </main>
