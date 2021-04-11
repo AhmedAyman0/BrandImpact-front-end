@@ -63,3 +63,15 @@
   justify-content: space-between;
   padding: 0 4%;
 }
+
+.services {
+  margin-top: 5%;
+  display: flex;
+  width: 100vw;
+  background-color: #ECF3E9;
+}
+
+.services_content {
+  margin: auto;
+  width: 45%;
+}

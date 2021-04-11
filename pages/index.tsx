@@ -53,16 +53,22 @@ export default function Home() {
           </ul>
           </div>
         </section>
-        <section className="">
-          <p className={styles.title}>
+        <section className={styles.services}>
+          <div className={styles.services_content}>
+          <p style={{
+            width: 'fit-content',
+            margin: 'auto'
+          }} className={styles.title}>
             Services
           </p>
-          <p>
-
+          <p >
+          Tristique cras tellus sapien eu ac purus scelerisque eget. Massa est duis volutpat eu, metus, eget.Tristique cras tellus sapien eu ac purus scelerisque eget. Massa est duis volutpat eu, metus, eget.
           </p>
           <div>
 
           </div>
+          </div>
+
         </section>
       </main>
 
